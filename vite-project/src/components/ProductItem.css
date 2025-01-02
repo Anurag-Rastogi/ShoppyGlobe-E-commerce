@@ -1,0 +1,86 @@
+.product-card{
+    width: 300px;
+    height: 500px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    margin: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.product-card:hover{
+    transform: scale(1.1);
+}
+.product-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ea5455;
+}
+.product-category{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+
+}
+.product-description{
+    color: #777;
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+.product-img{
+    background-color: #ffcaa6;
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   
+}
+.product-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+.product-details{
+    padding: 15px;
+}
+.product-price{
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.product-card-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+    box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    color: white;
+  }
+  
+  .btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .btn:active {
+    opacity: 0.5;
+  }
